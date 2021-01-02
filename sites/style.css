@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{  
+  padding:0;
+  margin:0; 
+}
+body {
+  background: #05202c;
+}
+/* 1c242d */
+.box {
+  border: 2px solid #071b31;
+  padding: 30px 25px 10px 25px;
+  background: #fff!important;
+  margin: 30px auto;
+  width: 360px;
+}
+h1.box-logo a {
+  text-decoration:none;
+}
+h1.box-title {
+  color: #fff!important;
+  background: #0d4b43;
+  font-weight: 300;
+  padding: 20px 30px;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  text-align:center;
+  margin: -30px -26px 26px;
+}
+.box-button {
+  border-radius: 5px;
+  background: #0d4b43;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 100%;
+  height: 51px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.box-register
+{
+  text-align:center;
+  margin-bottom:0px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.box-register a
+{
+  text-decoration:none;
+  font-size:12px;
+  color:#f50909;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  /*font-weight: bold;*/
+  font-size: 15px;
+}
+.box-input {
+  font-size: 14px;
+  background: #fff!important;
+  border: 1px solid #fff!important;
+  margin-bottom: 25px;
+  padding-left:10px;
+  border-radius: 5px;
+  width: 347px;
+  height: 50px;
+}
+.box-input:focus {
+    outline: none;
+    border-color:#4f6c88;
+}
+.sucess{
+	text-align: center;
+	color: white;
+}
+.sucess a {
+	text-decoration: none;
+	color: #58aef7;
+}
+p.errorMessage {
+    background-color: #0d4b43;
+    border: #0d4b43 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+.box_a{
+  color: rgb(209, 209, 200)!important;
+}
+.box_b{
+  color: rgb(209, 209, 200)!important;
+}
+.deconn{
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #35d7;
+}
+.btn_off{
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #35d7;
+}
+
+.btn_off{  
+  margin-top: 2px;
+  padding:10px 70px; 
+  color: #fff!important;
+  background-color: #0d4b43;
+  border-radius: 15px;
+}
+.btn_off .click_btn{    
+  color: #0d4b43;
+}
+.welcome .btn:focus{
+  box-shadow: above;
+}
+.lutt{
+  font-family: "Helvetica Neue", Arial,sans-serif;
+  font-size: 35px;
+  color: #fff;
+}
+.nav-sous{
+  z-index: 10px;
+}
