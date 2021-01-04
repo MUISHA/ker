@@ -6,7 +6,7 @@
                 <h1>Notre objectif</h1>
                 <div class="row">
                     <div class="col-md-6 text-center fadeInLeft">
-                        <img src="images/box2.jpg"class="img-fluid"/>
+                        <img src="images/walikale.jpeg"class="img-fluid"/>
                     </div>
                     <div class="col-md-6 text-justify fadeInRight">
                         <h3>Programmes et initiatives</h3>

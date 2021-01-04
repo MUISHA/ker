@@ -1,4 +1,7 @@
 <html>
+    <head>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
     <body>
     <section id="footer">
             <div class="container">
