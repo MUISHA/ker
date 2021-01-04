@@ -1,6 +1,6 @@
 <html>
     <body>
-            <div id="slider">
+        <div id="slider">
             <div id="headerSlider" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#headerSlider" data-slide-to="0" class="active"></li>

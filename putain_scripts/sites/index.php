@@ -7,6 +7,7 @@
         <title>KivuEmergenyRelief</title>
         <link rel="icon" type="image/png" href="images/nature_logo_2019.jpg" sizes="32x32">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="cc/styleh.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

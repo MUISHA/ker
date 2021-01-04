@@ -36,7 +36,12 @@
                         <p><i class="fa fa-linkedin"></i><a class="sdld"  href="#">KivuEmergencyrelief-lk</a></p>
                         <p><i class="fa fa-twitter"></i><a class="sdlf"  href="#">KivuEmergencyrelief-tw</a></p>
                     </div>
-                </div><hr>
+                    <div id="title_coppy">
+                    <p class="copyright"> Platform oeuvre au nord-kivu de RDcongo pour l'annulation de reduction et lutter le rechauffement climatique</p>
+              
+                    </div>
+                     </div><hr>
+                    
                     <p class="copyright"> ©2015 KivuEmergencyrelief All rights reserved</p>
             </div>
         </section>

@@ -1,7 +1,7 @@
 <html>
     <body>
         
-        <!-- Get Touch Contact -->
+        <!-- Get  Contact -->
         <section id="contact">
             <div class="container">
             <h1>Get Touch</h1>
