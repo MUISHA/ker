@@ -124,10 +124,16 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link btn btn-primary" href="#">Déconnexion</a>
+            <a class="btn btn-primary" href="#">Déconnexion</a>
           </li>      
         </ul>
-        <input class="forms1" type="text" name="search" placeholder="Search..">
+        
+        <div class="input-group"> 
+          <input class="forms1" type="text" name="search" placeholder="Search..">
+          <div class="input-group-append">
+            <button type="submit" name="submit" id="submit"
+               class="input-group-text btn"><i class="fa fa-search"></i></button>   </div>                                   
+        </div>
       </div>
     </nav>
 
