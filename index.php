@@ -12,108 +12,126 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
           </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-light ">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Kivu Nature Relief</a>
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Submenu action</a></li>
-              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
- 
- 
-              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+  <!--Navbar-->
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Kivu Nature</a>
+      <!-- <img src="img/telephone.png"> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Communication
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Environnement</a></li>
+              <li><a class="dropdown-item" href="#services">Digital</a></li>
+              <!--
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
-                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+    
+    
+                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                      <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                      <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                    </ul>
+                  </li>
+    
+    
+    
                 </ul>
               </li>
-              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
-                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
-                </ul>
-              </li>
- 
- 
- 
+              -->
+            
             </ul>
           </li>
-        </ul>
-      </li>
-      <!-- Autre NavBar -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Submenu action</a></li>
-              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
- 
- 
-              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+          <!-- Autre NavBar About Us -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Projet</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
-                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                <li><a class="dropdown-item" href="#">Projet en cours</a></li>
+                <li><a class="dropdown-item" href="#">Projet Realiser</a></li>
+                <li><a class="dropdown-item" href="#">Projet à programmer</a></li> 
+                
+                  <!--
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                      <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                      <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                    </ul>
+                  </li>
+                  -->
                 </ul>
               </li>
-              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
-                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
-                </ul>
-              </li>
- 
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">About Us</a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#feactures">Our team</a></li>
+                <li><a class="dropdown-item" href="#footer">Contacter</a></li>
+                <li><a class="dropdown-item" href="#">Contributer Us</a></li> 
+                
+                  <!--
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                      <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                      <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                    </ul>
+                  </li>
+                  -->
+                </ul>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="#">Déconnexion</a>
+          </li>      
         </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">Our tearm</a>
-      </li>      
-    </ul>
-    <!--   
-        <form class="form-inline my-2 my-lg-0">  
-        <button class="btn btn-primary" type="submit">Déconnexion</button>
-   
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+        <input class="forms1" type="text" name="search" placeholder="Search..">
+      </div>
+    </nav>
 
-
-
-    <div class="input-group"> 
-                                     <input type="email" id="mail" class="form-control" placeholder="search" name="mail">
-                                            <div class="input-group-append">
-                                                <button type="submit" name="submit" id="submit"
-                                                class="input-group-text btn">Search</button>
-                                            </div>                                 
-                                </div>
--->
-
-  </div>
-</nav>
+  </section>
 <!-- Slider -->
 <div id="slider">
             <div id="headerSlider" class="carousel slide" data-ride="carousel">
@@ -183,7 +201,7 @@
                                 
                     </div>
                      <div class="col-md-6 text-center fadeInLeft">
-                        <img src="images/images/walikale.jpeg" class="img-fluid"/>
+                        <img src="images/images/walikale.jpeg" class="img-fluid1"/>
                     </div>
                     <!-- Slider Image About Us -->
 
@@ -308,7 +326,7 @@
                         
                     </div>
                     <div class="col-md-6 text-center fadeInLeft">
-                        <img src="images/images/box20.jpg" class="img-fluid"/>
+                        <img src="images/images/box20.jpg" class="img-fluid2"/>
                     </div>
                 </div>
             </div>
